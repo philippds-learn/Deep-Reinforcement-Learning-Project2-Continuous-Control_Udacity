@@ -2,7 +2,8 @@
 
 [image1]: images/ddpg-algorithm.JPG "A2C DDPG"
 [image2]: images/ddpg-algorithm-intuition.JPG "A2C DDPG INTUITIVE"
-[image3]: images/ddpg-algorithm-intuition.JPG "plot of rewards per episode"
+[image3]: images/plot.JPG "plot"
+[image4]: images/score.JPG "plot of rewards per episode"
 
 ## Deep Reinforcement Learning Continuous Control Project Submission Report
 
@@ -46,7 +47,9 @@ WEIGHT_DECAY (float): L2 weight decay = 0
 
 ### Plot of Rewards
 
-![plot of rewards per episode][image3]
+![plot][image3]
+
+![plot of rewards per episode][image4]
 
 ### Ideas for Future Work
 
