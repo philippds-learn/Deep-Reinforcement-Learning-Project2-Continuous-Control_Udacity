@@ -3,7 +3,8 @@
 [image1]: images/ddpg-algorithm.JPG "A2C DDPG"
 [image2]: images/ddpg-algorithm-intuition.JPG "A2C DDPG INTUITIVE"
 [image3]: images/plot.JPG "plot"
-[image4]: images/score.JPG "plot of rewards per episode"
+[image4]: images/plot1.JPG "plot1"
+[image5]: images/score.JPG "plot of rewards per episode"
 
 ## Deep Reinforcement Learning Continuous Control Project Submission Report
 
@@ -37,27 +38,27 @@ n_episodes (int): maximum number of training episodes = 100<br />
 max_t (int): maximum number of timesteps per episode = 1000<br />
 
 ##### For ddpg Agent:
-BUFFER_SIZE (int): replay buffer size = int(1e5)<br />
+BUFFER_SIZE (int): replay buffer size = int(1e6)<br />
 BATCH_SIZE (int): minibatch size = 128<br />
-GAMMA (float): discount factor = 0.99<br />
+GAMMA (float): discount factor = 0.999<br />
 TAU (int): for soft update of target parameters = 1e-3<br />
 LR_ACTOR (int): learning rate of the actor = 1e-4<br />
 LR_CRITIC (int): learning rate of the critic = 1e-4<br />
 WEIGHT_DECAY (float): L2 weight decay = 0<br />
 
 #### Actor (Policy) Model.
-fcs1_units (int): Number of nodes in the first hidden layer = 256<br />
-fc2_units (int): Number of nodes in the second hidden layer = 128<br />
+fcs1_units (int): Number of nodes in the first hidden layer = 400<br />
+fc2_units (int): Number of nodes in the second hidden layer = 300<br />
 
 #### Critic (Value) Model.
-fcs1_units (int): Number of nodes in the first hidden layer = 256<br />
-fc2_units (int): Number of nodes in the second hidden layer = 128<br />
+fcs1_units (int): Number of nodes in the first hidden layer = 400<br />
+fc2_units (int): Number of nodes in the second hidden layer = 300<br />
 
 ### Plot of Rewards
 
 ![plot][image3]
-
-![plot of rewards per episode][image4]
+![plot1][image4]
+![plot of rewards per episode][image5]
 
 ### Ideas for Future Work
 
