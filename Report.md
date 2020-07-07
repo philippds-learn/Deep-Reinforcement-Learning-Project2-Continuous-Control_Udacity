@@ -2,9 +2,10 @@
 
 [image1]: images/ddpg-algorithm.JPG "A2C DDPG"
 [image2]: images/ddpg-algorithm-intuition.JPG "A2C DDPG INTUITIVE"
-[image3]: images/plot.JPG "plot"
-[image4]: images/plot1.JPG "plot1"
-[image5]: images/score.JPG "plot of rewards per episode"
+[image3]: images/score.JPG "plot of rewards per episode"
+[image4]: images/score1.JPG "plot 1 of rewards per episode"
+[image5]: images/plot.JPG "plot"
+
 
 ## Deep Reinforcement Learning Continuous Control Project Submission Report
 
@@ -56,9 +57,9 @@ fc2_units (int): Number of nodes in the second hidden layer = 300<br />
 
 ### Plot of Rewards
 
-![plot][image3]
-![plot1][image4]
-![plot of rewards per episode][image5]
+![plot of rewards per episode][image3]
+![plot 1 of rewards per episode][image4]
+![plot][image5]
 
 ### Ideas for Future Work
 
