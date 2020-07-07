@@ -33,17 +33,25 @@ More about A3C Q-Prop:
 #### Hyperparameters used:
 
 ##### For ddpg function:
-n_episodes (int): maximum number of training episodes = 100
-max_t (int): maximum number of timesteps per episode = 1000
+n_episodes (int): maximum number of training episodes = 100<br />
+max_t (int): maximum number of timesteps per episode = 1000<br />
 
 ##### For ddpg Agent:
-BUFFER_SIZE (int): replay buffer size = int(1e5)
-BATCH_SIZE (int): minibatch size = 128
-GAMMA (float): discount factor = 0.99
-TAU (int): for soft update of target parameters = 1e-3
-LR_ACTOR (int): learning rate of the actor = 1e-4
-LR_CRITIC (int): learning rate of the critic = 1e-4
-WEIGHT_DECAY (float): L2 weight decay = 0
+BUFFER_SIZE (int): replay buffer size = int(1e5)<br />
+BATCH_SIZE (int): minibatch size = 128<br />
+GAMMA (float): discount factor = 0.99<br />
+TAU (int): for soft update of target parameters = 1e-3<br />
+LR_ACTOR (int): learning rate of the actor = 1e-4<br />
+LR_CRITIC (int): learning rate of the critic = 1e-4<br />
+WEIGHT_DECAY (float): L2 weight decay = 0<br />
+
+#### Actor (Policy) Model.
+fcs1_units (int): Number of nodes in the first hidden layer = 256<br />
+fc2_units (int): Number of nodes in the second hidden layer = 128<br />
+
+#### Critic (Value) Model.
+fcs1_units (int): Number of nodes in the first hidden layer = 256<br />
+fc2_units (int): Number of nodes in the second hidden layer = 128<br />
 
 ### Plot of Rewards
 
